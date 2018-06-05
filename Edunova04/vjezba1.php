@@ -11,3 +11,11 @@ foreach($_GET as $vrijednost)
     $niz[]=$vrijednost;
 }
 echo max($niz);
+
+//ispisuje najveci broj bez negativnih brojeva
+$niz=array();
+foreach($_GET as $kljuc => $vrijednost){
+   $niz[]=$vrijednost;
+}
+
+echo max($niz);
